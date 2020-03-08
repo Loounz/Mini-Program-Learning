@@ -1,6 +1,32 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "斗地主",
+    "backgroundColor": "red",
+    "enablePullDownRefresh": true
+
+  },
+  "tabBar": {
+    "backgroundColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "你爸",
+        "iconPath": "assets/tabber/Aff1.png",
+        "selectedIconPath": "assets/tabber/Aff1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "你妈",
+        "iconPath": "assets/tabber/Aff1.png",
+        "selectedIconPath": "assets/tabber/Aff1.png"
+      }
+    ]
+  }
 }
